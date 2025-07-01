@@ -1,67 +1,79 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19877365&assignment_repo_type=AssignmentRepo)
 # React.js and Tailwind CSS Assignment
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+# Responsive React Application with Tailwind CSS 4.1
 
-## Assignment Overview
+## 1. Introduction
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+This project is a modern, responsive React application built to demonstrate key front-end development concepts and best practices. It showcases efficient state management using React Hooks, seamless API integration, and a fully responsive design.
 
-## Getting Started
+The application features a Task Manager for local state persistence and an API Data Viewer fetching dynamic content from a public API, all while offering a dynamic light/dark theme toggle.
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+## 2. Features
 
-## Files Included
+* **Component Architecture:** Reusable UI components (Button, Card, Navbar, Footer) and a flexible `MainLayout`.
+* **Task Manager**
+* **API Integration**
+* **State Management** 
+* **Custom Hook** 
+* **Theme Management** 
+* **Responsive Design** 
+* **Animations & Transitions** 
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+## 3. Technologies Used
 
-## Requirements
+* **React:** A JavaScript library for building user interfaces.
+* **Vite:** A fast build tool and development server for modern web projects.
+* **Tailwind CSS 4.1:** A utility-first CSS framework for rapidly building custom designs. (Note: This version uses the new CSS-first configuration via `@import "tailwindcss";` and `@theme` at-rule).
+* **React Router DOM:** For declarative routing within the application.
+* **`uuid`:** For generating unique IDs for tasks.
+* **`prop-types`:** For runtime type checking of React props.
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
 
-## Project Structure
+## 4. Getting Started
 
-```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+Follow these instructions to get a copy of the project up and running on your local machine.
 
-## Submission
+### Prerequisites
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+* Node.js (LTS version recommended)
+* npm (comes with Node.js) or yarn
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone 
+    cd my-responsive-react-app
+    ```
+    
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    pnpm add
+
+### Running the Application
+
+1.  **Start the development server:**
+    ```bash
+    npm run dev
+    # or
+    # pnpm run dev
+    ```
+2.  Open your web browser and navigate to the address shown in your terminal (usually `http://localhost:5173/`).
+
+### Live Website
+
+
+
+
+
+
+
+
+
+
 
 ## Resources
 
